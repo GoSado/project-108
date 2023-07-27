@@ -1,0 +1,29 @@
+body{
+    background: plum;
+    font-family: 'Pacifico', cursive;
+}
+.header_div{
+    background: white;
+    color:purple;
+    padding:20px;
+}
+.header_div p{
+    color:grey;
+    font-weight:bold;
+    letter-spacing:2px;
+    font-size:12px;
+}
+button{
+    width:130px;
+    letter-spacing:3px;
+    margin-top:30px;
+    }
+ .footer_div{
+    background:white;
+    color:purple;
+    width:100%;
+    position:fixed;
+bottom:0;
+line-height:3;
+text-align: center;
+ } 

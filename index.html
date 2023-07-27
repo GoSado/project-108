@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Recognizing animals by voice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Borel&family=Cinzel+Decorative:wght@700&family=DynaPuff&family=Pacifico&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+   <body>
+    <center>
+        <div class="header_div">
+        <h1>Sound Controlled Animals</h1>
+        <p>Note:Play different sound like barking,meowing.</p>
+        </div>
+        <div class="main_div">
+          <button class="btn btn-info"onclick="start()">Start</button>
+          <h4 id="label">I can hear:</h4>
+          <h3 id="confidence">Accuracy:</h3>
+            <br>
+            <img src="https://th.bing.com/th/id/OIP.SjAg2Xk-aAOCoZDjQ6pXxwHaHa?w=197&h=197&c=7&r=0&o=5&pid=1.7" id="dog" width="300" height="300">
+            <img src="https://th.bing.com/th/id/OIP.Ti0zaOrN9DOu-F3qEXSxBAHaLx?w=119&h=190&c=7&r=0&o=5&pid=1.7" id="cat" width="300" height="300">
+             </div>
+             <div class="footer_div">
+                Developed by:Lauren
+                </div>
+    </center>
+    <script src="main.js"></script>
+    </body>
+    </html>
